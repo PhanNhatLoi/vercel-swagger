@@ -56,7 +56,7 @@ Make sure the Vercel serverless entrypoint calls the Swagger setup.
 Example:
 
 ```ts
-import { setupSwagger } from '../src/swagger';
+import { setupSwagger } from "../src/swagger";
 
 // After creating the Nest app:
 setupSwagger(nestApp);
@@ -75,15 +75,15 @@ This is required because Vercel handles production requests through `api/index.t
 Configure Swagger UI to load CSS and JavaScript from a CDN:
 
 ```ts
-SwaggerModule.setup('docs', app, swaggerDocument, {
-  jsonDocumentUrl: 'docs-json',
-  customCssUrl: 'https://unpkg.com/swagger-ui-dist/swagger-ui.css',
+SwaggerModule.setup("docs", app, swaggerDocument, {
+  jsonDocumentUrl: "docs-json",
+  customCssUrl: "https://unpkg.com/swagger-ui-dist/swagger-ui.css",
   customJs: [
-    'https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js',
-    'https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js',
+    "https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js",
+    "https://unpkg.com/swagger-ui-dist/swagger-ui-standalone-preset.js",
   ],
   swaggerOptions: {
-    url: '/docs-json',
+    url: "/docs-json",
   },
 });
 ```
@@ -165,3 +165,7 @@ The fix is:
 1. Run Swagger setup in the Vercel entrypoint `api/index.ts`.
 2. Load Swagger UI CSS and JS from CDN.
 3. Explicitly point Swagger UI to `/docs-json`.
+
+## Demo Video
+
+[▶️ Watch Demo](./example/demo.mov)
