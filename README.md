@@ -6,7 +6,7 @@
 
 ## After add config
 
-https://github.com/user-attachments/assets/91fea8d9-d6be-4374-82ef-436bd712e424
+<img width="1846" height="1100" alt="Screen-Recording-2026-05-31-at-14 36 32" src="https://github.com/user-attachments/assets/e522fc08-78c3-4f0b-8953-e78dff6ebf39" />
 
 ## Problem
 
