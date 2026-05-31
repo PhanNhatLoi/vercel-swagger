@@ -1,5 +1,13 @@
 # Swagger UI Not Rendering on Vercel
 
+## Before config
+
+<img width="673" alt="Before config" src="https://github.com/user-attachments/assets/2e114017-f9fd-4f3a-8545-7dc482cfe85c" />
+
+## After add config
+
+<img width="1846" height="1100" alt="Screen-Recording-2026-05-31-at-14 36 32" src="https://github.com/user-attachments/assets/e522fc08-78c3-4f0b-8953-e78dff6ebf39" />
+
 ## Problem
 
 After deploying a NestJS application to Vercel, Swagger may not render correctly.
@@ -165,7 +173,3 @@ The fix is:
 1. Run Swagger setup in the Vercel entrypoint `api/index.ts`.
 2. Load Swagger UI CSS and JS from CDN.
 3. Explicitly point Swagger UI to `/docs-json`.
-
-## Demo Video
-
-<video src="./example/demo.mov" controls width="800"></video>
