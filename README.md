@@ -168,4 +168,4 @@ The fix is:
 
 ## Demo Video
 
-[▶️ Watch Demo](./example/demo.mov)
+<video src="./example/demo.mov" controls width="800"></video>
