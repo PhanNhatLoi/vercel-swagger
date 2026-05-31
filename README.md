@@ -1,5 +1,11 @@
 # Swagger UI Not Rendering on Vercel
 
+## Live Demo
+
+Swagger UI after applying the Vercel configuration:
+
+👉 https://vercel-swagger.vercel.app/docs
+
 ## Before config
 
 <img width="673" alt="Before config" src="https://github.com/user-attachments/assets/2e114017-f9fd-4f3a-8545-7dc482cfe85c" />
